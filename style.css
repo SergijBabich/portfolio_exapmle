@@ -1,12 +1,26 @@
-*{
-	margin:0;
+* {
+	margin: 0;
 	padding: 0;
+}
 
-}
-body{
+body {
 	background-color: black;
+	position: relative;
+	opacity: 200;
 }
-.contain{
+
+.overlay {
+	position: fixed;
+	display: none;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 3;
+}
+
+.contain {
 	background-color: black;
 	max-width: 1920px;
 	width: 100%;
@@ -17,22 +31,22 @@ body{
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	    -webkit-box-pack: center;
-	        -ms-flex-pack: center;
-	            justify-content: center;
-	    -webkit-box-align: center;
-	        -ms-flex-align: center;
-	            align-items: center;
-				position: relative;
-
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
 }
-.contain_one{
+
+.contain_one {
 	max-width: 1620px;
 	width: 100%;
 	-webkit-box-flex: 75%;
-	    -ms-flex: 70%;
-	        flex: 70%;
+	-ms-flex: 70%;
+	flex: 70%;
 	height: 1800px;
 	margin: auto;
 	text-align: center;
@@ -40,16 +54,17 @@ body{
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	    -webkit-box-pack: center;
-	        -ms-flex-pack: center;
-	            justify-content: center;
-	    -webkit-box-align: center;
-	        -ms-flex-align: center;
-	            align-items: center;
-				position: relative;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
 }
-.header_burger{
+
+.header_burger {
 	max-width: 300px;
 	height: 1800px;
 	width: 100%;
@@ -58,794 +73,770 @@ body{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-flex: 25%;
-	    -ms-flex: 25%;
-	        flex: 25%;
+	-ms-flex: 25%;
+	flex: 25%;
 }
-.contain_images{
+
+.contain_images {
 	width: 700px;
 	height: 290px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	-webkit-box-shadow: 1px 0px 6px rgba(84, 210, 19, .2);
-	        box-shadow: 10px 1px 6px rgba(84, 210, 19, .2);
+	box-shadow: 10px 1px 6px rgba(84, 210, 19, .2);
 }
-img{
+
+img {
 	padding: 0px;
-	
 }
-.images_editor{
+
+.images_editor {
 	position: absolute;
-	 top: 55px;
-    left: 174px;
-    bottom: 0px;
-    right: 0px;
-            -webkit-transition: .6s;
-            -o-transition: .6s;
-            transition: .6s;
-   -webkit-clip-path: polygon(43% 0, 85% 0, 95% 64%, 95% 100%, 0 86%, 0 0);
-           clip-path: polygon(43% 0, 85% 0, 95% 64%, 95% 100%, 0 86%, 0 0);
+	top: 55px;
+	left: 174px;
+	bottom: 0px;
+	right: 0px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	-webkit-clip-path: polygon(43% 0, 85% 0, 95% 64%, 95% 100%, 0 86%, 0 0);
+	clip-path: polygon(43% 0, 85% 0, 95% 64%, 95% 100%, 0 86%, 0 0);
 }
-.images_editor:hover{
+
+.images_editor:hover {
 	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
 }
-.images_editor1:hover{
+
+.images_editor1:hover {
 	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
 }
-.images_editor2:hover{
+
+.images_editor2:hover {
 	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
 }
-.images_editor3:hover{
+
+.images_editor3:hover {
 	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
-}.images_editor4:hover{
-	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
 }
-.images_editor5:hover{
+
+.images_editor4:hover {
 	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	        z-index: 3;
-	        -webkit-transition: .6s;
-	        -o-transition: .6s;
-	        transition: .6s;
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
 }
-.contain_one:hover .contain_images{
+
+.images_editor5:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 3;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+}
+
+.contain_one:hover .contain_images {
 	-webkit-filter: blur(2px);
-	        filter: blur(2px);
+	filter: blur(2px);
 }
-.contain_one .contain_images:hover{
+
+.contain_one .contain_images:hover {
 	-webkit-filter: blur(0px);
-	        filter: blur(0px);
+	filter: blur(0px);
 }
-.images_editor1{
+
+.images_editor1 {
 	position: absolute;
-    top: 55px;
-    left: 759px;
-    bottom: 0px;
-       -webkit-transition: .6s;
-       -o-transition: .6s;
-       transition: .6s;
-    right: 0px;
-    -webkit-clip-path: polygon(0% 0% , 100% 0% , 0% 10270% , 12% 63%);
-    clip-path: polygon(2% 0% , 100% 0% , 0% 10270% , 12% 63%);
+	top: 55px;
+	left: 759px;
+	bottom: 0px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	right: 0px;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 10270%, 12% 63%);
+	clip-path: polygon(2% 0%, 100% 0%, 0% 10270%, 12% 63%);
 }
-.images_editor2{
-	  position: absolute;
-   top: 306px;
-    left: 173px;
-    bottom: 0px;   -webkit-transition: .6s;   -o-transition: .6s;   transition: .6s;
-    right: 0px;
-    -webkit-clip-path: polygon(2% 0% , 100% 0% , 0% 10270% , 12% 63%);
-    clip-path: polygon(-5% 0% , 100% 15% , 0% 745% , -1% 17% , 0% 0%);
-}
-.images_editor3{
- position: absolute;
-top: 348px;
-    left: 749px;   -webkit-transition: .6s;   -o-transition: .6s;   transition: .6s;
-    bottom: 0px;
-    right: 0px;
-    -webkit-clip-path: polygon(-5% 0% , 100% 15% , 0% 745% , -1% 17% , 0% 0%);
-    clip-path: polygon(105% 0% , 103% 0% , 0% 626% , -2% 145% , 19% 0%);	
-}
-.images_editor4{
-	 position: absolute;
-        top: 599px;
-    left: 172px;   -webkit-transition: .6s;   -o-transition: .6s;   transition: .6s;
-    bottom: 0px;
-    right: 0px;
-    -webkit-clip-path: polygon(2% 0% , 100% 0% , 0% 10270% , 12% 63%);
-    clip-path: polygon(-3% -81% , 98% 9% , -37% 578%);
-}
-.images_editor5{
+
+.images_editor2 {
 	position: absolute;
-        top: 600px;
-    left: 689px; -webkit-transition: .6s;   -o-transition: .6s;   transition: .6s;
-    bottom: 0px;
-    right: 0px;
-    -webkit-clip-path: polygon(-5% 0% , 100% 15% , 0% 745% , -1% 17% , 0% 0%);
-    clip-path: polygon(30% 8% , 96% 8% , -25% 627% , 2% 103% , 25% 8%);
+	top: 306px;
+	left: 173px;
+	bottom: 0px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	right: 0px;
+	-webkit-clip-path: polygon(2% 0%, 100% 0%, 0% 10270%, 12% 63%);
+	clip-path: polygon(-5% 0%, 100% 15%, 0% 745%, -1% 17%, 0% 0%);
+}
+
+.images_editor3 {
+	position: absolute;
+	top: 348px;
+	left: 749px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	bottom: 0px;
+	right: 0px;
+	-webkit-clip-path: polygon(-5% 0%, 100% 15%, 0% 745%, -1% 17%, 0% 0%);
+	clip-path: polygon(105% 0%, 103% 0%, 59% 626%, -2% 145%, 19% 0%);
+}
+
+.images_editor4 {
+	position: absolute;
+	top: 599px;
+	left: 172px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	bottom: 0px;
+	right: 0px;
+	-webkit-clip-path: polygon(2% 0%, 100% 0%, 0% 10270%, 12% 63%);
+	clip-path: polygon(-3% -81%, 98% 9%, -37% 578%);
+}
+
+.images_editor5 {
+	position: absolute;
+	top: 603px;
+	;
+	left: 710px;
+	-webkit-transition: .6s;
+	-o-transition: .6s;
+	transition: .6s;
+	bottom: 0px;
+	right: 0px;
+	clip-path: polygon(22% 6%, 113% 6%, 100% 627%, -1% 103%, 21% 7%);
 }
 
 
 /* скрываем чекбокс */
+
 #menu__toggle {
-  opacity: 0;
+	opacity: 0;
 }
+
+
 /* стилизуем кнопку */
+
 .menu__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; /* используем flex для центрирования содержимого */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;  /* центрируем содержимое кнопки */
-  position: fixed;
-  top: 20px;
- 
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	/* используем flex для центрирования содержимого */
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	/* центрируем содержимое кнопки */
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
 }
+
+
 /* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #54d213;
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #54d213;
 }
 
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
+.menu__btn>span::before {
+	content: '';
+	top: -8px;
 }
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
+
+.menu__btn>span::after {
+	content: '';
+	top: 8px;
 }
+
 .menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  border-right: 2px solid #54d213;
-  border-radius: 50%;
-  left: -100%;
-  width: 300px;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  text-align: center;
-  background-color: #ECEFF1;
-  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-          box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	border-right: 2px solid #54d213;
+	border-radius: 56%;
+	left: -100%;
+	width: 300px;
+	height: 100%;
+	margin: 0;
+	padding: 80px 0;
+	list-style: none;
+	text-align: center;
+	background-color: #ECEFF1;
+	-webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
+
+
 /* элементы меню */
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #54d213;
-  width: 80px;
-  border-radius: 3px;
-  text-align: center;
- -webkit-box-shadow: 0 0 10px rgba(84, 210, 19,0.5);
-         box-shadow: 0 0 10px rgba( 84, 210, 19,  0.5);
 
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
+.menu__item {
+	display: block;
+	padding: 12px 24px;
+	color: #54d213;
+	width: 80px;
+	border-radius: 3px;
+	text-align: center;
+	-webkit-box-shadow: 0 0 10px rgba(84, 210, 19, 0.5);
+	box-shadow: 0 0 10px rgba( 84, 210, 19, 0.5);
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
 }
+
 .menu__item:hover {
-  -webkit-box-shadow: 0 0 10px rgba( 255, 215, 0,  0.5);
-          box-shadow: 0 0 10px rgba( 255, 215, 0,  0.5);
- border-radius: 4px;
-  
+	-webkit-box-shadow: 0 0 10px rgba( 255, 215, 0, 0.5);
+	box-shadow: 0 0 10px rgba( 255, 215, 0, 0.5);
+	border-radius: 4px;
 }
-#menu__toggle:checked ~ .menu__btn > span {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+
+#menu__toggle:checked~.menu__btn>span {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
-          transform: rotate(0);
+
+#menu__toggle:checked~.menu__btn>span::before {
+	top: 0;
+	-webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
 }
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+
+#menu__toggle:checked~.menu__btn>span::after {
+	top: 0;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-  background-color: black;
+
+#menu__toggle:checked~.menu__box {
+	visibility: visible;
+	left: 0;
+	background-color: black;
 }
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  -webkit-transition-duration: .25s;
-       -o-transition-duration: .25s;
-          transition-duration: .25s;
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+	-webkit-transition-duration: .25s;
+	-o-transition-duration: .25s;
+	transition-duration: .25s;
 }
+
 .menu__box {
-  -webkit-transition-duration: .25s;
-       -o-transition-duration: .25s;
-          transition-duration: .25s;
+	-webkit-transition-duration: .25s;
+	-o-transition-duration: .25s;
+	transition-duration: .25s;
 }
+
 .menu__item {
-  -webkit-transition-duration: .25s;
-       -o-transition-duration: .25s;
-          transition-duration: .25s;
-}
-@media screen and (max-width: 1500px)
-{
-	.contain_images{
-	width: 600px;
-	height:  250px;
+	-webkit-transition-duration: .25s;
+	-o-transition-duration: .25s;
+	transition-duration: .25s;
 }
 
-.images_editor1{
-	position: absolute;
-	 top: 55px;
-    left: 677px;
-    bottom: 0px;
-    right: 0px;
-
+@media screen and (max-width: 1500px) {
+	.contain_images {
+		width: 600px;
+		height: 250px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 55px;
+		left: 677px;
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 280px;
+		left: 172px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 311px;
+		left: 668px;
+		-webkit-clip-path: polygon(-5% 0%, 100% 15%, 0% 745%, -1% 17%, 0% 0%);
+		clip-path: polygon(105% 0%, 103% 0%, 59% 626%, -2% 145%, 19% 0%);
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 307px;
+		top: 535px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 545px;
+		left: 633px;
+	}
 }
-.images_editor2{
-	position: absolute;
-	 top: 280px;
-    left: 172px;
-    }
 
-  .images_editor3{
-	position: absolute;
-	 top: 311px;
-    left: 668px;
-     -webkit-clip-path: polygon(-5% 0% , 100% 15% , 0% 745% , -1% 17% , 0% 0%);
-    clip-path: polygon(105% 0% , 103% 0% , 0% 626% , -2% 145% , 19% 0%);
-    }
-      .images_editor4{
-	position: absolute;
-	 top: 307px;
-    top: 535px;
-
-    }
-       .images_editor5{
-	position: absolute;
-	   top: 545px;
-    left: 611px;
-
-    }
-
-
+@media screen and (max-width: 1330px) {
+	.contain_images {
+		width: 500px;
+		height: 209px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 55px;
+		left: 593px;
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 232px;
+		left: 172px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 260px;
+		left: 584px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 232px;
+		top: 437px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 457px;
+		left: 551px;
+	}
 }
-@media screen and (max-width: 1330px)
-{
-	
-.contain_images{
-	width: 500px;
-	height: 209px;
+
+@media screen and (max-width: 1130px) {
+	.contain_images {
+		width: 400px;
+		height: 168px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 55px;
+		left: 510px;
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 202px;
+		left: 172px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 227px;
+		left: 501px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 232px;
+		top: 372px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 382px;
+		left: 465px;
+	}
 }
-.images_editor1{
-	position: absolute;
-	top: 55px;
-    left: 593px;
-    bottom: 0px;
-    right: 0px;
 
-}
-.images_editor2{
-	position: absolute;
-	 top: 232px;
-    left: 172px;
-    }
-
-  .images_editor3{
-	position: absolute;
-	top: 260px;
-    left: 584px;
-    }
-      .images_editor4{
-	position: absolute;
-	 top: 232px;
-    top: 437px;
-
-    }
-       .images_editor5{
-	position: absolute;
-	       top: 446px;
-    left: 540px;
-
-    }
-}
-@media screen and (max-width: 1130px)
-{
-	
-.contain_images{
-	width: 400px;
-	height: 168px;
-}
-.images_editor1{
-	position: absolute;
-	top: 55px;
-  left: 510px;
-    bottom: 0px;
-    right: 0px;
-
-}
-.images_editor2{
-	position: absolute;
-	 top: 202px;
-    left: 172px;
-    }
-
-  .images_editor3{
-	position: absolute;
-	top: 227px;
-    left: 501px;
-    }
-      .images_editor4{
-	position: absolute;
-	 top: 232px;
-   top: 372px;
-
-    }
-       .images_editor5{
-	position: absolute;
-	         top: 382px;
-    left: 465px;
-
-    }
-
-
-
-
-}
-@media screen and (max-width: 960px)
-
-{
-	.contain_one{
+@media screen and (max-width: 960px) {
+	.contain_one {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 	}
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-	height: 300px;
-}
- .images_editor{
-	position: absolute;
-	 top: 55px;
-    left: 174px;
-  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 0%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor1{
-	position: absolute;
-	 top: 255px;
-    left: 174px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	    top: 457px;
-    left: 174px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	 top: 655px;
-    left: 174px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	 top: 855px;
-    left: 174px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	 top: 1055px;
-    left: 174px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 300px;
+	}
+	.images_editor {
+		position: absolute;
+		top: 55px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 0%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 255px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 457px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 655px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 855px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 1055px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
 }
 
-}
-@media screen and (max-width: 860px)
-
-{
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-	height: 292px;
-}
-}
-@media screen and (max-width: 800px)
-
-{
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-	    height: 267px;
-}
-.images_editor1{
-	position: absolute;
-	 top: 237px;
-    left: 174px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	    top:419px;
-    left: 174px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	 top:  601px;
-    left: 174px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	 top: 784px;
-    left: 174px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	 top: 965px;
-    left: 174px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
-}
-@media screen and (max-width: 720px)
-
-{
-	.images_editor{
-	position: absolute;
-	 top: 55px;
-    left: 124px;
-
-}
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-height: 222px;
-}
-.images_editor1{
-	position: absolute;
-	 top:205px;
-    left: 124px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	    top:356px;
-    left: 124px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	 top:  508px;
-    left: 124px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	 top: 665px;
-    left: 124px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	 top:818px;
-    left: 124px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
-}
-@media screen and (max-width: 625px)
-
-{
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-	height: 201px;
+@media screen and (max-width: 860px) {
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 292px;
+	}
 }
 
-.images_editor1{
-	position: absolute;
-	 top:191px;
-    left: 124px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	   top: 330px;
-    left: 124px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	top: 468px;
-    left: 124px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	    top: 606px;
-    left: 124px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	top: 743px;
-    left: 124px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
-
-    
-}
-@media screen and (max-width: 573px)
-
-{
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-	height: 150px;
-}
-.images_editor{
-	position: absolute;
-	  top: 55px;
-    left: 63px;
-
-}
-  
-.images_editor1{
-	position: absolute;
-	 
-    top: 159px;
-    left: 63px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	      top: 265px;
-    left: 64px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	    top: 369px;
-    left: 64px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	  top: 472px;
-    left: 64px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	    top: 575px;
-    left: 64px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
+@media screen and (max-width: 800px) {
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 267px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 237px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 419px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 601px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 784px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 965px;
+		left: 174px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
 }
 
-
-}
-@media screen and (max-width: 422px)
-
-{
-	.contain_images{
-	max-width: 700px;
-	width: 100%;
-  height: 128px;
-}
-.images_editor{
-	position: absolute;
-	  top: 55px;
-    left: 63px;
-
-}
-  
-.images_editor1{
-	position: absolute;
-	 
-   top: 144px;
-    left: 63px;
--webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
-clip-path:polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor2{
-	position: absolute;
-	      top: 233px;
-    left: 64px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor3{
-	position: absolute;
-	        top: 323px;
-    left: 64px;
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor4{
-	position: absolute;
-	     top: 412px;
-    left: 64px;
--webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
-}
- .images_editor5{
-	position: absolute;
-	    top: 507px;
-    left: 64px;
- -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
-    bottom: 0px;
-    right: 0px;
-
+@media screen and (max-width: 720px) {
+	.images_editor {
+		position: absolute;
+		top: 55px;
+		left: 124px;
+	}
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 222px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 205px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 356px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 508px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 665px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 818px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
 }
 
+@media screen and (max-width: 625px) {
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 201px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 191px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 330px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 468px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 606px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 743px;
+		left: 124px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+}
 
+@media screen and (max-width: 573px) {
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 150px;
+	}
+	.menu__box {
+		border-radius: 26%;
+	}
+	.images_editor {
+		position: absolute;
+		top: 55px;
+		left: 63px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 159px;
+		left: 63px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 265px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 369px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 472px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 575px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+}
+
+@media screen and (max-width: 422px) {
+	.contain_images {
+		max-width: 700px;
+		width: 100%;
+		height: 128px;
+	}
+	.images_editor {
+		position: absolute;
+		top: 55px;
+		left: 63px;
+	}
+	.images_editor1 {
+		position: absolute;
+		top: 144px;
+		left: 63px;
+		-webkit-clip-path: polygon(0 35%, 100% 0, 100% 73%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor2 {
+		position: absolute;
+		top: 233px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 82%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor3 {
+		position: absolute;
+		top: 323px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor4 {
+		position: absolute;
+		top: 412px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
+	.images_editor5 {
+		position: absolute;
+		top: 507px;
+		left: 64px;
+		-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0% 100%);
+		clip-path: polygon(0 15%, 100% 0%, 100% 65%, 0% 80%);
+		bottom: 0px;
+		right: 0px;
+	}
 }
